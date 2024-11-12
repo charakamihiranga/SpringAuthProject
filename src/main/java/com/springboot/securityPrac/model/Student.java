@@ -1,4 +1,4 @@
-package com.springboot.securityPrac;
+package com.springboot.securityPrac.model;
 
 
 public class Student {

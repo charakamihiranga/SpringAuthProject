@@ -7,4 +7,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserRepository extends JpaRepository<Users, Integer> {
    Users findByUsername(String username);
+
 }
+// **  Encrypting Passwords
+// plain -> hash -> hash1 -> hash2 -> hash3
+
